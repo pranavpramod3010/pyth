@@ -15,14 +15,14 @@
 
 # find the missing number
 
-numbers = [1,2,4,5,6,7,8]
+# numbers = [1,2,4,5,6,7,8]
 
-missing_num = 0
+# missing_num = 0
 
-for i in range(len(numbers)):
-    if i+1 not in numbers:
-        missing_num=i+1
-        print(missing_num)     
+# for i in range(len(numbers)):
+#     if i+1 not in numbers:
+#         missing_num=i+1
+#         print(missing_num)     
 
 
 
@@ -38,6 +38,7 @@ for i in numbers:
     else:
         seen.add(i)    
 print(duplicate)
+print(seen)
 
 
 
@@ -45,21 +46,21 @@ print(duplicate)
 
 # rotate a list 
 
-numbers = [10,20,30,40,50]
+# numbers = [10,20,30,40,50]
 
-print(numbers[-2:]+numbers[:-2])
+# print(numbers[-2:]+numbers[:-2])
 
 
 
 
 # find common element from the list
 
-a = [1,2,3,4,5,6]
-b = [2,4,6,8,10]
-c = [0,2,4,6,12]
+# a = [1,2,3,4,5,6]
+# b = [2,4,6,8,10]
+# c = [0,2,4,6,12]
 
-A=set(a)   
-B=set(b)
-C=set(c)
+# A=set(a)   
+# B=set(b)
+# C=set(c)
 
-print(A.intersection(B,C))
+# print(A.intersection(B,C))
